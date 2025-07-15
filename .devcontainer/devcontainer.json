@@ -1,0 +1,21 @@
+{
+  "name": "react-form-builder",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:1": {},
+    "ghcr.io/joshuanianji/devcontainer-features/mount-pnpm-store:1.0.2": {}
+  },
+
+  "forwardPorts": [5173],
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "biomejs.biome"
+      ]
+    }
+  },
+
+  "runArgs": ["--name", "react-form-builder"]
+}
