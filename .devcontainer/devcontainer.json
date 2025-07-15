@@ -1,6 +1,6 @@
 {
   "name": "react-form-builder",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
 
   "features": {
     "ghcr.io/devcontainers/features/common-utils:1": {},
