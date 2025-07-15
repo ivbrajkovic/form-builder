@@ -1,21 +1,19 @@
 {
-  "name": "react-form-builder",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+	"name": "react-form-builder",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
 
-  "features": {
-    "ghcr.io/devcontainers/features/common-utils:1": {},
-    "ghcr.io/joshuanianji/devcontainer-features/mount-pnpm-store:1.0.2": {}
-  },
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:1": {},
+		"ghcr.io/joshuanianji/devcontainer-features/mount-pnpm-store:1": {}
+	},
 
-  "forwardPorts": [5173],
+	"forwardPorts": [5173],
 
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "biomejs.biome"
-      ]
-    }
-  },
+	"customizations": {
+		"vscode": {
+			"extensions": ["biomejs.biome"]
+		}
+	},
 
-  "runArgs": ["--name", "react-form-builder"]
+	"runArgs": ["--name", "react-form-builder"]
 }
